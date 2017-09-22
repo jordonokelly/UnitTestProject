@@ -21,6 +21,12 @@ public class YahtzeeScorerTest {
         assertTrue(yah.playYahtzee(1,1,1,1,1));
         assertTrue(!yah.playYahtzee(1,1,1,1,1));
     }
+
+    @Test
+    public void npLargeStraight(){
+        assertTrue(yah.playLargeStraight(1,2,3,4,5));
+        assertTrue(!yah.playLargeStraight(1,2,3,4,5));
+    }
 }
 
 
