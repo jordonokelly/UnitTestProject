@@ -18,7 +18,7 @@ public class YahtzeeScorer {
         openThreeOfAKind = true;
     }
 
-    public boolean playYahtzee(int d1, int d2, int d3, int d4, int d5) {
+    public boolean checkPlayYahtzee(int d1, int d2, int d3, int d4, int d5) {
         if (openYahtzee){
             openYahtzee = false;
             return true;
@@ -28,7 +28,7 @@ public class YahtzeeScorer {
         }
     }
 
-    public boolean playLargeStraight(int d1, int d2, int d3, int d4, int d5) {
+    public boolean checkPlayLargeStraight(int d1, int d2, int d3, int d4, int d5) {
         if (openLargeStraight){
             openLargeStraight = false;
             return true;
@@ -38,7 +38,7 @@ public class YahtzeeScorer {
         }
     }
 
-    public boolean playFullHouse(int d1, int d2, int d3, int d4, int d5) {
+    public boolean checkPlayFullHouse(int d1, int d2, int d3, int d4, int d5) {
         if (openFullHouse){
             openFullHouse = false;
             return true;
@@ -48,7 +48,7 @@ public class YahtzeeScorer {
         }
     }
 
-    public boolean playThreeOfAKind(int d1, int d2, int d3, int d4, int d5) {
+    public boolean checkPlayThreeOfAKind(int d1, int d2, int d3, int d4, int d5) {
         if (openThreeOfAKind){
             openThreeOfAKind = false;
             return true;
@@ -79,5 +79,21 @@ public class YahtzeeScorer {
         //make sure we have a three of a kind and a pair
         return ((dice[0] == dice[1] && dice[0] == dice[2] && dice[0] != dice[3] && dice[3]==dice[4]) ||
                 (dice[0] == dice[1] && dice[0] != dice[2] &&  dice[2] == dice[3] && dice[2]==dice[4]));
+    }
+
+    public boolean checkThreeOfAKind(int d1, int d2, int d3, int d4, int d5) {
+        int[] dice = {d1,d2,d3,d4,d5};
+        Arrays.sort(dice);
+        //first middle or last  set of three die are all of a kind
+        return ((dice[0] == dice[1] && dice[0] == dice[2]||
+                (dice[1] == dice[2] && dice[1] == dice[3])||
+                (dice[2] == dice[3] && dice[2] == dice[4])));
+    }
+
+    public int scoreYahtzee(int d1, int d2, int d3, int d4, int d5) {
+        if (checkPlayYahtzee(d1,d2,d3,d4,d5) && checkYahtzee(d1,d2,d3,d4,d5)){
+            return 50;
+        }
+
     }
 }

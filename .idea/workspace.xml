@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9a4879-b847-4b40-aeda-e53d48b80da1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/YahtzeeScorerTest.java" afterPath="$PROJECT_DIR$/Tests/YahtzeeScorerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YahtzeeScorer.java" afterPath="$PROJECT_DIR$/src/YahtzeeScorer.java" />
     </list>
@@ -26,10 +25,12 @@
       <file leaf-file-name="YahtzeeScorerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/YahtzeeScorerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="486">
+              <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file leaf-file-name="YahtzeeScorer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/YahtzeeScorer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="591">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -67,8 +68,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/YahtzeeScorer.java" />
         <option value="$PROJECT_DIR$/Tests/YahtzeeScorerTest.java" />
+        <option value="$PROJECT_DIR$/src/YahtzeeScorer.java" />
       </list>
     </option>
   </component>
@@ -130,28 +131,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.YahtzeeScorerTest.npCheckYahtzee">
-    <configuration default="false" name="YahtzeeScorerTest.npYahtzee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Yahtzee" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YahtzeeScorerTest" />
-      <option name="METHOD_NAME" value="npYahtzee" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.YahtzeeScorerTest.checkThreeOfAKindTest">
     <configuration default="false" name="YahtzeeScorerTest.npCheckFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Yahtzee" />
@@ -202,6 +182,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YahtzeeScorerTest" />
       <option name="METHOD_NAME" value="npCheckYahtzee" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="YahtzeeScorerTest.checkFullHouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Yahtzee" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YahtzeeScorerTest" />
+      <option name="METHOD_NAME" value="checkFullHouseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="YahtzeeScorerTest.checkThreeOfAKindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Yahtzee" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YahtzeeScorerTest" />
+      <option name="METHOD_NAME" value="checkThreeOfAKindTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -595,18 +617,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npYahtzee" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckFullHouse" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckLargeStraight" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckYahtzee" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckFullHouse" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckLargeStraight" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckYahtzee" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.checkFullHouseTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.checkThreeOfAKindTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckYahtzee" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckLargeStraight" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckFullHouse" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npYahtzee" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.checkThreeOfAKindTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.checkFullHouseTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckYahtzee" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckLargeStraight" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.YahtzeeScorerTest.npCheckFullHouse" />
       </list>
     </recent_temporary>
   </component>
@@ -622,7 +646,7 @@
       <updated>1506046055144</updated>
       <workItem from="1506046056486" duration="426000" />
       <workItem from="1506050316308" duration="936000" />
-      <workItem from="1506285257522" duration="3648000" />
+      <workItem from="1506285257522" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="Setup">
       <created>1506046463798</created>
@@ -635,6 +659,15 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="YahtzeeScorerTest_checkFullHouseTest - 2017.09.24 at 16h 51m 47s.xml">
+      <configuration name="YahtzeeScorerTest.checkFullHouseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeScorerTest_checkThreeOfAKindTest - 2017.09.24 at 16h 51m 55s.xml">
+      <configuration name="YahtzeeScorerTest.checkThreeOfAKindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeScorerTest_checkThreeOfAKindTest - 2017.09.24 at 16h 52m 04s.xml">
+      <configuration name="YahtzeeScorerTest.checkThreeOfAKindTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="YahtzeeScorerTest_npCheckFullHouse - 2017.09.24 at 16h 46m 28s.xml">
       <configuration name="YahtzeeScorerTest.npCheckFullHouse" configurationId="JUnit" />
     </history-entry>
@@ -643,15 +676,6 @@
     </history-entry>
     <history-entry file="YahtzeeScorerTest_npCheckYahtzee - 2017.09.24 at 16h 46m 34s.xml">
       <configuration name="YahtzeeScorerTest.npCheckYahtzee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YahtzeeScorerTest_npYahtzee - 2017.09.21 at 22h 23m 29s.xml">
-      <configuration name="YahtzeeScorerTest.npYahtzee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YahtzeeScorerTest_npYahtzee - 2017.09.21 at 22h 33m 41s.xml">
-      <configuration name="YahtzeeScorerTest.npYahtzee" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YahtzeeScorerTest_npYahtzee - 2017.09.24 at 15h 41m 16s.xml">
-      <configuration name="YahtzeeScorerTest.npYahtzee" configurationId="JUnit" />
     </history-entry>
     <history-entry file="YahtzeeScorerTest_npYahtzee - 2017.09.24 at 16h 08m 33s.xml">
       <configuration name="YahtzeeScorerTest.npYahtzee" configurationId="JUnit" />
@@ -667,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5010000" />
+    <option name="totallyTimeSpent" value="5731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -729,6 +753,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,6 +775,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -765,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/YahtzeeScorer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        <state relative-caret-position="591">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -775,10 +803,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/YahtzeeScorerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="486">
+          <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
           </folding>
         </state>
       </provider>
