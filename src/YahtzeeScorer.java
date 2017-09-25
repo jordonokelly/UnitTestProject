@@ -1,11 +1,13 @@
 /**
- * Created by okellyj on 9/21/17.
+ * Methods for part of the scoring of Yahtzee
+ * Created by Jordon O'Kelly and Quinn Schiller on 9/21/17.
  */
 
 import java.util.Arrays;
 
 public class YahtzeeScorer {
 
+    //constructor and instance variables
     private boolean openYahtzee;
     private boolean openLargeStraight;
     private boolean openFullHouse;
@@ -22,22 +24,26 @@ public class YahtzeeScorer {
         score = 0;
     }
 
+    //Returns the current score
     public int getScore() {
         return this.score;
     }
 
-
+    //Error for already scoring a category
     public class AlreadyScoredException extends Exception{
         public AlreadyScoredException(String errorText){
             super(errorText);
         }
     }
 
+    //Error for not having correct dice to score a category
     public class InvalidScoringCategoryException extends Exception{
         public InvalidScoringCategoryException(String errorText){
             super(errorText);
         }
     }
+
+    //Checks to see if a yahtzee has been played
     public boolean checkPlayYahtzee(int d1, int d2, int d3, int d4, int d5) {
         if (openYahtzee){
             openYahtzee = false;
@@ -48,6 +54,7 @@ public class YahtzeeScorer {
         }
     }
 
+    //Checks to see if a large straight has been played
     public boolean checkPlayLargeStraight(int d1, int d2, int d3, int d4, int d5) {
         if (openLargeStraight){
             openLargeStraight = false;
@@ -58,6 +65,7 @@ public class YahtzeeScorer {
         }
     }
 
+    //Checks to see if a full house has been played
     public boolean checkPlayFullHouse(int d1, int d2, int d3, int d4, int d5) {
         if (openFullHouse){
             openFullHouse = false;
@@ -68,6 +76,7 @@ public class YahtzeeScorer {
         }
     }
 
+    //Checks to see if a three of a kind has been played
     public boolean checkPlayThreeOfAKind(int d1, int d2, int d3, int d4, int d5) {
         if (openThreeOfAKind){
             openThreeOfAKind = false;
@@ -78,10 +87,12 @@ public class YahtzeeScorer {
         }
     }
 
+    //checks to see if the current dice are a yahtzee
     public boolean checkYahtzee(int d1, int d2, int d3, int d4, int d5) {
         return d1 == d2 && d2 == d3 && d3 == d4 && d4 == d5;
     }
 
+    //checks to see if the current dice are a large straight
     public boolean checkLargeStraight(int d1, int d2, int d3, int d4, int d5) {
         if (d1 != d2 && d1 != d3 && d1 != d4 && d1 != d5 && d2 != d3 && d2 != d4 && d2 != d5 && d3 != d4 && d3 != d5 && d4 != d5){
             int diceSum = d1 + d2 + d3 + d4 + d5;
@@ -93,6 +104,7 @@ public class YahtzeeScorer {
         return false;
     }
 
+    //checks to see if the current dice are a full house
     public boolean checkFullHouse(int d1, int d2, int d3, int d4, int d5) {
         int[] dice = {d1,d2,d3,d4,d5};
         Arrays.sort(dice);
@@ -101,6 +113,7 @@ public class YahtzeeScorer {
                 (dice[0] == dice[1] && dice[0] != dice[2] &&  dice[2] == dice[3] && dice[2]==dice[4]));
     }
 
+    //checks to see if the current dice contain a three of a kind
     public boolean checkThreeOfAKind(int d1, int d2, int d3, int d4, int d5) {
         int[] dice = {d1,d2,d3,d4,d5};
         Arrays.sort(dice);

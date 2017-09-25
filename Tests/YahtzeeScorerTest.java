@@ -4,7 +4,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by okellyj on 9/21/17.
+ * Unit tests for part of the scoring of Yahtzee
+ * Created by Jordon O'Kelly and Quinn Schiller on 9/21/17.
  */
 public class YahtzeeScorerTest {
     protected YahtzeeScorer yah;
